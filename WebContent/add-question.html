@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add a question</title>
+</head>
+<body>
+	<h1>Add a question</h1>
+	<form action="add-question.jsp" method="post">
+		<select name="sub">
+			<option value="c">C</option>
+			<option value="ds">Data Structures</option>
+			<option value="java">JAVA</option>
+		</select> <br> <br>Question <br>
+		<textarea rows="5" cols="100" name="question"
+			placeholder="Enter your question here" required></textarea>
+		<br> <br> <br> (A) <input type="text" name="a1"
+			required></input><br> (B) <input type="text" name="a2" required></input><br>
+		(C) <input type="text" name="a3" required></input><br> (D) <input
+			type="text" name="a4" required></input><br> <br> <br>
+		Correct option : (A)<input type="radio" name="a" value="a"></input>(B)<input
+			type="radio" name="a" value="b"></input> (C)<input type="radio"
+			name="a" value="c"></input>(D)<input type="radio" name="a" value="d"></input>
+		<br> <br> <input type="submit" value="SAVE"></input>
+	</form>
+</body>
+</html>
